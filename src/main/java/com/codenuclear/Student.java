@@ -5,6 +5,9 @@ public class Student
 	String stuName;
 	String stuCity;
 	int stuId;
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
 	String surname;
 	public String getSurname(){
 		return surname;

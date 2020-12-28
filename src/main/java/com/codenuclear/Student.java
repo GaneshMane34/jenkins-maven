@@ -6,7 +6,9 @@ public class Student
 	String stuCity;
 	int stuId;
 	String surname;
-	
+	public String getSurname(){
+		return surname;
+	}
 	public String getStuName() {
 		return stuName;
 	}
